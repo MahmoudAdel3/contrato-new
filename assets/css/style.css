@@ -3755,7 +3755,7 @@ li {
 
 /*Home 2 Banner Content*/
 .home2-hero-banner {
-  background-image: url(../img/vUQXv1U9Inx2h7jqcDieyzjkOYCgVpse.jpg);
+  background-image: url(../img/pexels-ekaterina-bolovtsova-6077326\ \(1\).jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 650px;
@@ -3772,7 +3772,7 @@ li {
 }
 
 .inner-banner-style2 .hero-title {
-  color: #000000;
+  color: #ffffff;
   font-size: 46px;
   font-family: var(--title-font-family);
   font-weight: 600;
@@ -3785,13 +3785,13 @@ li {
 }
 
 .inner-banner-style2 .hero-text {
-  color: #000000;
+  color: #ffffff;
   font-family: var(--title-font-family);
   font-weight: 400;
 }
 
 .home-banner-style2 {
-  background-color: #181A20;
+  background-color: #fafafa;
   position: relative;
 }
 
@@ -4570,7 +4570,7 @@ li {
 }
 
 .exclusive-agent-single {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   bottom: -90px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 10px 40px rgba(24, 26, 32, 0.05);
@@ -4578,7 +4578,7 @@ li {
   -o-box-shadow: 0px 10px 40px rgba(24, 26, 32, 0.05);
   box-shadow: 0px 10px 40px rgba(24, 26, 32, 0.05);
   /* max-width: 250px; */
-  padding: 20px;
+  /* padding: 20px; */
   right: 70px;
   bottom: -60px;
   right: 30px;
@@ -5795,6 +5795,14 @@ section {
 
 .iconbox-style4 .title {
   margin-bottom: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .iconbox-style4 .title {
+    margin-bottom: 0px;
+    font-size: 12px !important;
+    text-align: center;
+  }
 }
 
 .iconbox-style4:hover {
@@ -8026,7 +8034,7 @@ header.menu-home10.stricky.stricky-fixed .ace-responsive-menu .visible_list a.li
 }
 
 header.nav-homepage-style {
-  background-color: transparent;
+  background-color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   padding: 20px 0;
   position: fixed;
@@ -8130,7 +8138,7 @@ header.nav-homepage-style .ace-responsive-menu .visible_list a.list-item:hover {
 }
 
 header.nav-homepage-style .ace-responsive-menu a {
-  color: #ffffff;
+  color: #181A20;
   font-family: var(--title-font-family);
   font-weight: 600;
 }

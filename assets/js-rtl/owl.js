@@ -199,11 +199,11 @@ if($('.slider-3-grid').length){
     dots:true,
     nav:true,
     rtl:true,
-    autoplayHoverPause:false,
+    autoplayHoverPause:true,
     autoplay: true,
     singleItem: true,
     smartSpeed: 1200,
-    autoplayTimeout:2000,
+    autoplayTimeout:3000,
     navText: [
       '<i class="far fa-arrow-left-long"></i>',
       '<i class="far fa-arrow-right-long"></i>'
