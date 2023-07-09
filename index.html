@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/ud-custom-spacing.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/shared-css/cdnjs.cloudflare.com_ajax_libs_toastr.js_latest_toastr.min.css">
 
   <!-- css file rtl-->
   <!-- <link rel="stylesheet" href="assets/css-rtl/bootstrap.min.css">
@@ -98,606 +99,539 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalToggleLabel">Welcome to Realton</h5>
+              <h5 class="modal-title" id="exampleModalToggleLabel">
+                Awesome!
+                <br class="d-none d-xl-block">
+                We just need some more information
+              </h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <div class="log-reg-form">
-                <div class="navtab-style2">
-                  <nav>
-                    <div class="nav nav-tabs mb20" id="nav-tab" role="tablist">
-                      <button class="nav-link active fw600" id="nav-home-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                        aria-selected="true">Sign In</button>
-                      <button class="nav-link fw600" id="nav-profile-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
-                        aria-selected="false">New Account</button>
-                    </div>
-                  </nav>
-                  <div class="tab-content" id="nav-tabContent2">
-                    <div class="tab-pane fade show active fz15" id="nav-home" role="tabpanel"
-                      aria-labelledby="nav-home-tab">
-                      <div class="form-style1">
-                        <div class="mb25">
-                          <label class="form-label fw600 dark-color">Email</label>
-                          <input type="email" class="form-control" placeholder="Enter Email">
-                        </div>
-                        <div class="mb15">
-                          <label class="form-label fw600 dark-color">Password</label>
-                          <input type="text" class="form-control" placeholder="Enter Password">
-                        </div>
-                        <div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb10">
-                          <label class="custom_checkbox fz14 ff-heading">Remember me
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                          </label>
-                          <a class="fz14 ff-heading" href="#">Lost your password?</a>
-                        </div>
-                        <div class="d-grid mb20">
-                          <button class="ud-btn btn-thm" type="button">Sign in <i
-                              class="fal fa-arrow-right-long"></i></button>
-                        </div>
-                        <div class="hr_content mb20">
-                          <hr><span class="hr_top_text">OR</span>
-                        </div>
-                        <div class="d-grid mb10">
-                          <button class="ud-btn btn-white" type="button"><i class="fab fa-google"></i> Continue
-                            Google</button>
-                        </div>
-                        <div class="d-grid mb10">
-                          <button class="ud-btn btn-fb" type="button"><i class="fab fa-facebook-f"></i> Continue
-                            Facebook</button>
-                        </div>
-                        <div class="d-grid mb20">
-                          <button class="ud-btn btn-apple" type="button"><i class="fab fa-apple"></i> Continue
-                            Apple</button>
-                        </div>
-                        <p class="dark-color text-center mb0 mt10">Not signed up? <a class="dark-color fw600"
-                            href="page-register.html">Create an account.</a></p>
-                      </div>
-                    </div>
-                    <div class="tab-pane fade fz15" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                      <div class="form-style1">
-                        <div class="mb25">
-                          <label class="form-label fw600 dark-color">Email</label>
-                          <input type="email" class="form-control" placeholder="Enter Email">
-                        </div>
-                        <div class="mb20">
-                          <label class="form-label fw600 dark-color">Password</label>
-                          <input type="text" class="form-control" placeholder="Enter Password">
-                        </div>
-                        <div class="d-grid mb20">
-                          <button class="ud-btn btn-thm" type="button">Create account <i
-                              class="fal fa-arrow-right-long"></i></button>
-                        </div>
-                        <div class="hr_content mb20">
-                          <hr><span class="hr_top_text">OR</span>
-                        </div>
-                        <div class="d-grid mb10">
-                          <button class="ud-btn btn-white" type="button"><i class="fab fa-google"></i> Continue
-                            Google</button>
-                        </div>
-                        <div class="d-grid mb10">
-                          <button class="ud-btn btn-fb" type="button"><i class="fab fa-facebook-f"></i> Continue
-                            Facebook</button>
-                        </div>
-                        <div class="d-grid mb20">
-                          <button class="ud-btn btn-apple" type="button"><i class="fab fa-apple"></i> Continue
-                            Apple</button>
-                        </div>
-                        <p class="dark-color text-center mb0 mt10">Not signed up? <a class="dark-color fw600"
-                            href="page-register.html">Create an account.</a></p>
-                      </div>
-                    </div>
+              <form action="">
+                <div class="form-style1">
+                  <div class="mb20">
+                    <input type="text" class="form-control" required placeholder="Your Name">
                   </div>
-                </div>
+                  <div class="mb20">
+                    <input type="email" class="form-control" required placeholder="Your Email">
+                  </div>
+                  <div class="mb20">
+                    <textarea rows="5" placeholder="Your Inquiry" required></textarea>
+                  </div>
+                  <div class="d-grid mb20">
+                    <button class="ud-btn btn-thm" type="submit">Proceed to Payment
+                      <i class="fal fa-arrow-right-long"></i>
+                    </button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu In Hiddn SideBar -->
+  <div class="rightside-hidden-bar">
+    <div class="hsidebar-header">
+      <div class="sidebar-close-icon"><span class="far fa-times"></span></div>
+      <h4 class="title">Welcome to Realton</h4>
+    </div>
+    <div class="hsidebar-content">
+      <div class="hiddenbar_navbar_content">
+        <div class="hiddenbar_navbar_menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Apartments</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Bungalow</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Houses</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Loft</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Office</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Townhome</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" role="button">Villa</a></li>
+          </ul>
+        </div>
+        <div class="hiddenbar_footer position-relative bdrt1">
+          <div class="row pt45 pb30 pl30">
+            <div class="col-auto">
+              <div class="contact-info">
+                <p class="info-title dark-color">Total Free Customer Care</p>
+                <h6 class="info-phone dark-color"><a href="+(0)-123-050-945-02">+(0) 123 050 945 02</a></h6>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="contact-info">
+                <p class="info-title dark-color">Nee Live Support?</p>
+                <h6 class="info-mail dark-color"><a href="mailto:hi@homez.com">hi@homez.com</a></h6>
+              </div>
+            </div>
+          </div>
+          <div class="row pt30 pb30 bdrt1">
+            <div class="col-auto">
+              <div class="social-style-sidebar d-flex align-items-center pl30">
+                <h6 class="me-4 mb-0">Follow us</h6>
+                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Menu In Hiddn SideBar -->
-    <div class="rightside-hidden-bar">
-      <div class="hsidebar-header">
-        <div class="sidebar-close-icon"><span class="far fa-times"></span></div>
-        <h4 class="title">Welcome to Realton</h4>
-      </div>
-      <div class="hsidebar-content">
-        <div class="hiddenbar_navbar_content">
-          <div class="hiddenbar_navbar_menu">
-            <ul class="navbar-nav">
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Apartments</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Bungalow</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Houses</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Loft</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Office</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Townhome</a></li>
-              <li class="nav-item"> <a class="nav-link" href="" role="button">Villa</a></li>
-            </ul>
-          </div>
-          <div class="hiddenbar_footer position-relative bdrt1">
-            <div class="row pt45 pb30 pl30">
-              <div class="col-auto">
-                <div class="contact-info">
-                  <p class="info-title dark-color">Total Free Customer Care</p>
-                  <h6 class="info-phone dark-color"><a href="+(0)-123-050-945-02">+(0) 123 050 945 02</a></h6>
-                </div>
-              </div>
-              <div class="col-auto">
-                <div class="contact-info">
-                  <p class="info-title dark-color">Nee Live Support?</p>
-                  <h6 class="info-mail dark-color"><a href="mailto:hi@homez.com">hi@homez.com</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="row pt30 pb30 bdrt1">
-              <div class="col-auto">
-                <div class="social-style-sidebar d-flex align-items-center pl30">
-                  <h6 class="me-4 mb-0">Follow us</h6>
-                  <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                  <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
-                  <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
-                  <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--End Menu In Hiddn SideBar -->
-    <div class="hiddenbar-body-ovelay"></div>
+  </div>
+  <!--End Menu In Hiddn SideBar -->
+  <div class="hiddenbar-body-ovelay"></div>
 
-    <!-- Mobile Nav  -->
-    <div id="page" class="mobilie_header_nav stylehome1">
-      <div class="mobile-menu">
-        <div class="header innerpage-style">
-          <div class="menu_and_widgets">
-            <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-              <a class="menubar" href="#menu"><img src="assets/images/mobile-dark-nav-icon.svg" alt=""></a>
-              <a class="mobile_logo" href="#"><img src="assets/img/pQp9AaA9R6vbSk9EvW6tS9z9fqHfU1Oh.png" alt=""></a>
-            </div>
+  <!-- Mobile Nav  -->
+  <div id="page" class="mobilie_header_nav stylehome1">
+    <div class="mobile-menu">
+      <div class="header innerpage-style">
+        <div class="menu_and_widgets">
+          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+            <a class="menubar" href="#menu"><img src="assets/images/mobile-dark-nav-icon.svg" alt=""></a>
+            <a class="mobile_logo" href="#"><img src="assets/img/pQp9AaA9R6vbSk9EvW6tS9z9fqHfU1Oh.png" alt=""></a>
           </div>
         </div>
       </div>
-      <!-- /.mobile-menu -->
-      <nav id="menu" class="">
-        <ul>
-          <li><a href="#online"><span>Online Consultation</span></a> </li>
-          <li><a href="#corporate"><span>Corporate Services</span></a> </li>
-          <li><a href="#personal"><span>Personal Services</span></a> </li>
-          <!-- Only for Mobile View -->
-        </ul>
-      </nav>
     </div>
+    <!-- /.mobile-menu -->
+    <nav id="menu" class="">
+      <ul>
+        <li><a href="#online"><span>Online Consultation</span></a> </li>
+        <li><a href="#corporate"><span>Corporate Services</span></a> </li>
+        <li><a href="#personal"><span>Personal Services</span></a> </li>
+        <!-- Only for Mobile View -->
+      </ul>
+    </nav>
+  </div>
 
-    <div class="body_content">
-      <!-- Home Banner Style V1 -->
-      <section class="home-banner-style2 p0">
-        <div class="home-style2">
-          <div class="container maxw1600">
-            <div class="home2-hero-banner bdrs12"></div>
-            <div class="row">
-              <div class="col-xl-10 mx-auto">
-                <div class="inner-banner-style2 text-center mt200 mt150-md mb60 mx-auto">
-                  <h2 class="hero-title animate-up-2">Your professional legal expert is a click away! </h2>
-                  <!-- <p class="hero-text fz15 animate-up-3">We are on a mission to avail exceptional legal expertise to
+  <div class="body_content">
+    <!-- Home Banner Style V1 -->
+    <section class="home-banner-style2 p0">
+      <div class="home-style2">
+        <div class="container maxw1600">
+          <div class="home2-hero-banner bdrs12"></div>
+          <div class="row">
+            <div class="col-xl-10 mx-auto">
+              <div class="inner-banner-style2 text-center mt200 mt150-md mb60 mx-auto">
+                <h2 class="hero-title animate-up-2">Your professional legal expert is a click away! </h2>
+                <!-- <p class="hero-text fz15 animate-up-3">We are on a mission to avail exceptional legal expertise to
                     everyone, accessible from anywhere and affordable to anyone. We carefully handpicked our pool of
                     lawyers to cover all fields and expertise so we can find the right answer from the right lawyer in
                     the easiest way.
                   </p> -->
-                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Explore Our Field of Expertise -->
-      <section class="pb30 pb30-md">
+    <!-- Explore Our Field of Expertise -->
+    <section class="pb30 pb30-md">
+      <div class="container">
+        <div class="row justify-content-center wow fadeInUp" data-wow-delay="300ms">
+          <div class="col-lg-12">
+            <div class="dots_none nav_none slider-dib-sm slider-5-grid owl-theme owl-carousel">
+              <div class="item">
+                <a>
+                  <div class="iconbox-style4">
+                    <img src="assets/img/6H3qNbyvtkcBkvS1NVM87Hd90XeWUue3 (1).jpg">
+                    <div class="iconbox-content">
+                      <h6 class="title">CORPORATE LAW</h6>
+                      <!-- <p class="text mb-0">22 Properties</p> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <div class="iconbox-style4">
+                    <img src="assets/img/eSbdlV99LlbOnLIo9eJoUcHCND12p8dV (1).jpg">
+                    <div class="iconbox-content">
+                      <h6 class="title">INHERITANCE</h6>
+                      <!-- <p class="text mb-0">22 Properties</p> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <div class="iconbox-style4">
+                    <img src="assets/img/d6mrirX9E4NXRVW9InpHlUZtxogp56vz.jpg">
+                    <div class="iconbox-content">
+                      <h6 class="title">REAL ESTATE</h6>
+                      <!-- <p class="text mb-0">22 Properties</p> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <div class="iconbox-style4">
+                    <img src="assets/img/gDqez4OhbA3BLCXAfpgqo3gGOQqNeAao.jpg">
+                    <div class="iconbox-content">
+                      <h6 class="title">CUSTODY LAW</h6>
+                      <!-- <p class="text mb-0">22 Properties</p> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <div class="iconbox-style4">
+                    <img src="assets/img/WnJu4HNVR2s1yFIZ9HlmBW41jPfFpuU8.jpg">
+                    <div class="iconbox-content">
+                      <h6 class="title">DIVORCE LAW</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services-->
+    <section class="pt0 pb40-md">
+      <div class="cta-banner bgc-f7 mx-auto maxw1600 pt70 pb140 pb30-md bdrs12 position-relative mx20-lg px20-sm">
         <div class="container">
-          <div class="row justify-content-center wow fadeInUp" data-wow-delay="300ms">
-            <div class="col-lg-12">
-              <div class="dots_none nav_none slider-dib-sm slider-5-grid owl-theme owl-carousel">
-                <div class="item">
-                  <a>
-                    <div class="iconbox-style4">
-                      <img src="assets/img/6H3qNbyvtkcBkvS1NVM87Hd90XeWUue3 (1).jpg">
-                      <div class="iconbox-content">
-                        <h6 class="title">CORPORATE LAW</h6>
-                        <!-- <p class="text mb-0">22 Properties</p> -->
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a>
-                    <div class="iconbox-style4">
-                      <img src="assets/img/eSbdlV99LlbOnLIo9eJoUcHCND12p8dV (1).jpg">
-                      <div class="iconbox-content">
-                        <h6 class="title">INHERITANCE</h6>
-                        <!-- <p class="text mb-0">22 Properties</p> -->
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a>
-                    <div class="iconbox-style4">
-                      <img src="assets/img/d6mrirX9E4NXRVW9InpHlUZtxogp56vz.jpg">
-                      <div class="iconbox-content">
-                        <h6 class="title">REAL ESTATE</h6>
-                        <!-- <p class="text mb-0">22 Properties</p> -->
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a>
-                    <div class="iconbox-style4">
-                      <img src="assets/img/gDqez4OhbA3BLCXAfpgqo3gGOQqNeAao.jpg">
-                      <div class="iconbox-content">
-                        <h6 class="title">CUSTODY LAW</h6>
-                        <!-- <p class="text mb-0">22 Properties</p> -->
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a>
-                    <div class="iconbox-style4">
-                      <img src="assets/img/WnJu4HNVR2s1yFIZ9HlmBW41jPfFpuU8.jpg">
-                      <div class="iconbox-content">
-                        <h6 class="title">DIVORCE LAW</h6>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--Services-->
-      <section class="pt0 pb40-md">
-        <div class="cta-banner bgc-f7 mx-auto maxw1600 pt70 pb140 pb30-md bdrs12 position-relative mx20-lg px20-sm">
-          <div class="container">
-            <div class="row align-items-start align-items-xl-center">
-              <!-- Online consultation -->
-              <div class="col-md-10 col-lg-7 col-xl-6 mb25" id="online">
-                <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
-                  <div class="exclusive-agent-single mb30-sm">
-                    <div class="agent-img"><img src="assets/img/e7NNzWdDxaEUaRlreQNbWzUWHf5g7VQL-min (2).jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-8 col-lg-5 col-xl-5 offset-xl-1 mb25">
-                <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
-                  <h2 class="title mb20">ONLINE CONSULTATION</h2>
-                  <p class="text mb55 mb30-md fz14"> Whether you don't know what to do, or confused between different
-                    legal actions or just need
-                    a second
-                    opinion; we got your back! Now you can get a professional legal consultation from an expert
-                    lawyer in 3
-                    simple steps. <br class="d-none d-xl-block">Book your consultation now at only EGP
-                    750</p>
-                  <div class="mailchimp-widget text-center mb30-md mb60">
-                    <div class="mailchimp-style2">
-                      <input type="text" class="form-control" placeholder="Your Mobile">
-                      <button class="ud-btn btn-dark" type="submit">BOOK</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--Corporate services-->
-              <div class="col-md-8 col-lg-5 col-xl-5 mb25" id="corporate">
-                <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
-                  <h2 class="title mb20">CORPORATE SERVICES</h2>
-                  <p class="text mb55 mb30-md fz14">
-                    Tailored legal services to suit your corporate needs
-                  <div class="list-style1 mb60 mb30-md">
-                    <ul>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Professional Contract</a></li>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legal review on a contract</a></li>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legalize your freelance practice</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-10 col-lg-7 col-xl-6 offset-xl-1  mb25">
-                <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
-                  <div class="exclusive-agent-single mb30-sm">
-                    <div class="agent-img"><img src="assets/img/lTA0giEhGc7KQr42aSjZOdbYMpkRH04B (1).jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--Personal services-->
-              <div class="col-md-10 col-lg-7 col-xl-6" id="personal">
-                <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
-                  <div class="exclusive-agent-single mb30-sm">
-                    <div class="agent-img"><img src="assets/img/8jtbrftxvYY9rkWbbfQHyNO76XXhrtiG (1).jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-8 col-lg-5 col-xl-5 offset-xl-1">
-                <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
-                  <h2 class="title mb20">Personal SERVICES</h2>
-                  <p class="text mb55 mb30-md fz14">
-                    Whatever your challenge is, we are here to help you
-                  <div class="list-style1 mb60 mb30-md">
-                    <ul>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Inheritance</a></li>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legal representation</a></li>
-                      <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Register your property</a></li>
-                    </ul>
+          <div class="row align-items-start align-items-xl-center">
+            <!-- Online consultation -->
+            <div class="col-md-10 col-lg-7 col-xl-6 mb25" id="online">
+              <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
+                <div class="exclusive-agent-single mb30-sm">
+                  <div class="agent-img"><img src="assets/img/e7NNzWdDxaEUaRlreQNbWzUWHf5g7VQL-min (2).jpg" alt="">
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonials -->
-      <section class="pb30 pb30-md">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
-              <div class="main-title">
-                <h2 class="title">What our clients say </h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="dots_none nav_none slider-dib-sm slider-3-grid owl-carousel owl-theme wow fadeInUp"
-                data-wow-delay="300ms">
-                <div class="item">
-                  <div class="testimonial-style1 position-relative bdr1">
-                    <div class="testimonial-content">
-                      <h5 class="title">Great Work</h5>
-                      <span class="icon fas fa-quote-left"></span>
-                      <p class="text">This software works outstandingly well. It grudgingly improves my skills by a lot.
-                      </p>
-                      <div class="testimonial-review">
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a href=""><i class="fas fa-star"></i></a>
-                      </div>
-                    </div>
-                    <div class="thumb d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="wa" src="images/testimonials/testimonial-1.png" alt="">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Leslie Alexander</h6>
-                        <p class="mb-0">Nintendo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="testimonial-style1 position-relative bdr1">
-                    <div class="testimonial-content">
-                      <h5 class="title">Great Work</h5>
-                      <span class="icon fas fa-quote-left"></span>
-                      <p class="text">It really saves me time and effort. @YourCompany is exactly what our business has
-                        been lacking. It's all good. Definitely worth the investment. I would also like to say thank you
-                        to all your staff!”</p>
-                      <div class="testimonial-review">
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a href=""><i class="fas fa-star"></i></a>
-                      </div>
-                    </div>
-                    <div class="thumb d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="wa" src="images/testimonials/testimonial-2.png" alt="">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Floyd Miles</h6>
-                        <p class="mb-0">Bank of America</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="testimonial-style1 position-relative bdr1">
-                    <div class="testimonial-content">
-                      <h5 class="title">Great Work</h5>
-                      <span class="icon fas fa-quote-left"></span>
-                      <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
-                        cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
-                      <div class="testimonial-review">
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a href=""><i class="fas fa-star"></i></a>
-                      </div>
-                    </div>
-                    <div class="thumb d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Dianne Russell</h6>
-                        <p class="mb-0">Facebook</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="testimonial-style1 position-relative bdr1">
-                    <div class="testimonial-content">
-                      <h5 class="title">Great Work</h5>
-                      <span class="icon fas fa-quote-left"></span>
-                      <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
-                        cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
-                      <div class="testimonial-review">
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a href=""><i class="fas fa-star"></i></a>
-                      </div>
-                    </div>
-                    <div class="thumb d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Dianne Russell</h6>
-                        <p class="mb-0">Facebook</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="testimonial-style1 position-relative bdr1">
-                    <div class="testimonial-content">
-                      <h5 class="title">Great Work</h5>
-                      <span class="icon fas fa-quote-left"></span>
-                      <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
-                        cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
-                      <div class="testimonial-review">
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a class="me-1" href=""><i class="fas fa-star"></i></a>
-                        <a href=""><i class="fas fa-star"></i></a>
-                      </div>
-                    </div>
-                    <div class="thumb d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <h6 class="mb-0">Dianne Russell</h6>
-                        <p class="mb-0">Facebook</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Our Partners -->
-      <section class="our-partners bgc-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms">
-              <div class="main-title">
-                <h2 class="title">Our Clients</h2>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="dots_none nav_none slider-dib-sm slider-3-grid owl-carousel owl-theme wow fadeInUp"
-                data-wow-delay="100ms">
-                <div class="item">
-                  <div class="partner_item">
-                    <img class="m-auto" src="assets/img/cJrElJ6N7slOC7xozSqv5foRXapSxz6e.png" alt="1.png">
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="partner_item">
-                    <img class="m-auto" src="assets/img/xPxBQb9xHjDPLlczVG7N4E3iRb5HYJla.png" alt="2.png">
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="partner_item">
-                    <img class="m-auto" src="assets/img/Q4da6gh97SBzE6szJJ3ISMMz80NK5DtR.png" alt="3.png">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Our CTA -->
-      <section class="our-cta">
-        <div class="cta-banner bgc-f7 mx-auto maxw1600 pt120 pb120 pt60-md pb60-md bdrs12 position-relative mx20-lg">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-7 col-xl-6 wow fadeInLeft">
-                <div class="cta-style1">
-                  <h2 class="cta-title">Still not sure what you need?</h2>
-                  <p class="cta-text mb-0">Book your legal consultation now!</p>
-                  <p class="cta-text mb-0">Starting at only EGP750 </p>
-                </div>
-              </div>
-              <div class="col-lg-5 col-xl-6 wow fadeInRight" data-wow-delay="300ms">
+            <div class="col-md-8 col-lg-5 col-xl-5 offset-xl-1 mb25">
+              <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
+                <h2 class="title mb20">ONLINE CONSULTATION</h2>
+                <p class="text mb55 mb30-md fz14"> Whether you don't know what to do, or confused between different
+                  legal actions or just need
+                  a second
+                  opinion; we got your back! Now you can get a professional legal consultation from an expert
+                  lawyer in 3
+                  simple steps. <br class="d-none d-xl-block">Book your consultation now at only EGP
+                  750</p>
                 <div class="mailchimp-widget text-center mb30-md mb60">
                   <div class="mailchimp-style2">
-                    <input type="text" class="form-control" placeholder="Your Mobile">
-                    <button class="ud-btn btn-dark" type="submit">BOOK</button>
+                    <input type="number" class="form-control online-consultation" pattern="[0-9]{11}"
+                      placeholder="Your Mobile">
+                    <button class="ud-btn btn-dark" onclick="bookNow('online-consultation')">BOOK</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Corporate services-->
+            <div class="col-md-8 col-lg-5 col-xl-5 mb25" id="corporate">
+              <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
+                <h2 class="title mb20">CORPORATE SERVICES</h2>
+                <p class="text mb55 mb30-md fz14">
+                  Tailored legal services to suit your corporate needs
+                <div class="list-style1 mb60 mb30-md">
+                  <ul>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Professional Contract</a></li>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legal review on a contract</a></li>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legalize your freelance practice</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10 col-lg-7 col-xl-6 offset-xl-1  mb25">
+              <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
+                <div class="exclusive-agent-single mb30-sm">
+                  <div class="agent-img"><img src="assets/img/lTA0giEhGc7KQr42aSjZOdbYMpkRH04B (1).jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Personal services-->
+            <div class="col-md-10 col-lg-7 col-xl-6" id="personal">
+              <div class="mb35 mb0-sm wow fadeInRight" data-wow-delay="300ms">
+                <div class="exclusive-agent-single mb30-sm">
+                  <div class="agent-img"><img src="assets/img/8jtbrftxvYY9rkWbbfQHyNO76XXhrtiG (1).jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-5 col-xl-5 offset-xl-1">
+              <div class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInLeft" data-wow-delay="300ms">
+                <h2 class="title mb20">Personal SERVICES</h2>
+                <p class="text mb55 mb30-md fz14">
+                  Whatever your challenge is, we are here to help you
+                <div class="list-style1 mb60 mb30-md">
+                  <ul>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Inheritance</a></li>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Legal representation</a></li>
+                    <li><a><i class="far fa-dot text-white bgc-dark fz15"></i>Register your property</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="pb30 pb30-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+            <div class="main-title">
+              <h2 class="title">What our clients say </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="dots_none nav_none slider-dib-sm slider-3-grid owl-carousel owl-theme wow fadeInUp"
+              data-wow-delay="300ms">
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <h5 class="title">Great Work</h5>
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">This software works outstandingly well. It grudgingly improves my skills by a lot.
+                    </p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img class="wa" src="images/testimonials/testimonial-1.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0">Leslie Alexander</h6>
+                      <p class="mb-0">Nintendo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <h5 class="title">Great Work</h5>
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">It really saves me time and effort. @YourCompany is exactly what our business has
+                      been lacking. It's all good. Definitely worth the investment. I would also like to say thank you
+                      to all your staff!”</p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img class="wa" src="images/testimonials/testimonial-2.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0">Floyd Miles</h6>
+                      <p class="mb-0">Bank of America</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <h5 class="title">Great Work</h5>
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
+                      cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0">Dianne Russell</h6>
+                      <p class="mb-0">Facebook</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <h5 class="title">Great Work</h5>
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
+                      cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0">Dianne Russell</h6>
+                      <p class="mb-0">Facebook</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <h5 class="title">Great Work</h5>
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">“Amazing design, easy to customize and a design quality superlative account on its
+                      cloud platform for the optimized performance. And we didn’t on our original designs.”</p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img class="wa" src="images/testimonials/testimonial-3.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h6 class="mb-0">Dianne Russell</h6>
+                      <p class="mb-0">Facebook</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Our Footer -->
-      <section class="footer-style1 pb-0">
+    <!-- Our Partners -->
+    <section class="our-partners bgc-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms">
+            <div class="main-title">
+              <h2 class="title">Our Clients</h2>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="dots_none nav_none slider-dib-sm slider-3-grid owl-carousel owl-theme wow fadeInUp"
+              data-wow-delay="100ms">
+              <div class="item">
+                <div class="partner_item">
+                  <img class="m-auto" src="assets/img/cJrElJ6N7slOC7xozSqv5foRXapSxz6e.png" alt="1.png">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner_item">
+                  <img class="m-auto" src="assets/img/xPxBQb9xHjDPLlczVG7N4E3iRb5HYJla.png" alt="2.png">
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner_item">
+                  <img class="m-auto" src="assets/img/Q4da6gh97SBzE6szJJ3ISMMz80NK5DtR.png" alt="3.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our CTA -->
+    <section class="our-cta">
+      <div class="cta-banner bgc-f7 mx-auto maxw1600 pt120 pb120 pt60-md pb60-md bdrs12 position-relative mx20-lg">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="footer-widget mb-4 mb-lg-5">
-                <a class="footer-logo"><img class="mb40" src="assets/img/pQp9AaA9R6vbSk9EvW6tS9z9fqHfU1Oh.png" alt=""
-                    style="max-width: 8rem;"></a>
-                <div class="social-widget">
-                  <h6 class="text-white mb20">Follow us on social media</h6>
-                  <div class="social-style1">
-                    <a href=""><i class="fab fa-facebook-f list-inline-item"></i></a>
-                    <a href=""><i class="fab fa-twitter list-inline-item"></i></a>
-                    <a href=""><i class="fab fa-instagram list-inline-item"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in list-inline-item"></i></a>
-                  </div>
-                </div>
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-xl-6 wow fadeInLeft">
+              <div class="cta-style1">
+                <h2 class="cta-title">Still not sure what you need?</h2>
+                <p class="cta-text mb-0">Book your legal consultation now!</p>
+                <p class="cta-text mb-0">Starting at only EGP750 </p>
               </div>
             </div>
-            <div class="col-lg-7">
-              <div class="footer-widget mb-4 mb-lg-5">
-                <div class="mailchimp-widget mb-4 mb-lg-5">
-                  <h6 class="title text-white mb20">Get the Newsletter</h6>
-                  <div class="mailchimp-style1">
-                    <input type="email" class="form-control" placeholder="Your Email">
-                    <button type="submit">Subscribe</button>
-                  </div>
+            <div class="col-lg-5 col-xl-6 wow fadeInRight" data-wow-delay="300ms">
+              <div class="mailchimp-widget text-center mb30-md mb60">
+                <div class="mailchimp-style2">
+                  <input type="number" class="form-control legal-consultation" placeholder="Your Mobile">
+                  <button class="ud-btn btn-dark" onclick="bookNow('legal-consultation')">BOOK</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container white-bdrt1 py-4">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="text-center text-lg-start">
-                <p class="copyright-text text-gray ff-heading">© Contrato Company - All rights reserved</p>
-              </div>
-            </div>
+      </div>
+    </section>
 
+    <!-- Our Footer -->
+    <section class="footer-style1 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="footer-widget mb-4 mb-lg-5">
+              <a class="footer-logo"><img class="mb40" src="assets/img/pQp9AaA9R6vbSk9EvW6tS9z9fqHfU1Oh.png" alt=""
+                  style="max-width: 8rem;"></a>
+              <div class="social-widget">
+                <h6 class="text-white mb20">Follow us on social media</h6>
+                <div class="social-style1">
+                  <a href=""><i class="fab fa-facebook-f list-inline-item"></i></a>
+                  <a href=""><i class="fab fa-twitter list-inline-item"></i></a>
+                  <a href=""><i class="fab fa-instagram list-inline-item"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in list-inline-item"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="footer-widget mb-4 mb-lg-5">
+              <div class="mailchimp-widget mb-4 mb-lg-5">
+                <h6 class="title text-white mb20">Get the Newsletter</h6>
+                <div class="mailchimp-style1">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                  <button type="submit">Subscribe</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
-    </div>
+      </div>
+      <div class="container white-bdrt1 py-4">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="text-center text-lg-start">
+              <p class="copyright-text text-gray ff-heading">© Contrato Company - All rights reserved</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
   </div>
   <!-- Wrapper End -->
   <script src="assets/js/jquery-3.6.4.min.js"></script>
@@ -716,6 +650,7 @@
   <script src="assets/js/pricing-slider.js"></script>
   <script src="assets/js/swiper.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/shared-js/cdnjs.cloudflare.com_ajax_libs_toastr.js_latest_toastr.min.js"></script>
 
   <!-- <script src="assets/js-rtl/jquery-3.6.4.min.js"></script>
   <script src="assets/js-rtl/jquery-migrate-3.0.0.min.js"></script>
@@ -732,7 +667,18 @@
   <script src="assets/js-rtl/parallax.js"></script>
   <script src="assets/js-rtl/swiper.js"></script>
   <script src="assets/js-rtl/script.js"></script> -->
-
+  <script>
+    toastr.options.closeButton = true;
+    function bookNow(inputSelector) {
+      if (!$('.' + inputSelector).val()) {
+        toastr.error('Please enter your mobile number');
+        return;
+      }
+      else {
+        $('#exampleModalToggle').modal('show');
+      }
+    }
+  </script>
 </body>
 
 </html>
